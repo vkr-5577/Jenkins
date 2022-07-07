@@ -1,0 +1,48 @@
+Status: FAILED
+Time Taken: 6681
+Size: 30
+Timestamp: Thu Jul 07 12:16:56 IST 2022
+TestStep: signup
+
+----------------- Messages ------------------------------
+[Valid HTTP Status Codes] Response status code:400 is not in acceptable list of status codes
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://ecommerceservice.herokuapp.com
+Method: POST
+StatusCode: 400
+URL: https://ecommerceservice.herokuapp.com/user/signup
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [ecommerceservice.herokuapp.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [57]
+Content-Type: [application/json]
+
+POST https://ecommerceservice.herokuapp.com/user/signup HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 57
+Host: ecommerceservice.herokuapp.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+
+---------------- Response --------------------------
+Server: [Cowboy]
+Etag: [W/"1e-7wDTnNrY+0HLqtgIOJXhdXghKEQ"]
+Access-Control-Allow-Origin: [*]
+Connection: [keep-alive]
+#status#: [HTTP/1.1 400 Bad Request]
+Content-Length: [30]
+Access-Control-Allow-Headers: [Origin, X-Requested-With, Content-Type, Accept, Authorization]
+Date: [Thu, 07 Jul 2022 06:47:01 GMT]
+X-Powered-By: [Express]
+Content-Type: [application/json; charset=utf-8]
+Via: [1.1 vegur]
+
+{"message":"This user exists"}
